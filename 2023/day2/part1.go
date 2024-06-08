@@ -1,5 +1,9 @@
 package main
 
-func part1() {
+import (
+	"github.com/reinaldo-mlhs/adventofcode/utility"
+)
 
+func Part1() {
+	var lines []string = utility.Get_text_lines("./input.txt")
 }
